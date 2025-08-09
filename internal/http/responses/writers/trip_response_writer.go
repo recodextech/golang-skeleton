@@ -7,9 +7,10 @@ import (
 	"golang-skeleton/internal/domain/application"
 	"golang-skeleton/internal/domain/events"
 	"golang-skeleton/internal/http/responses"
-	"golang-skeleton/pkg/container"
 	"golang-skeleton/pkg/errors"
 	"net/http"
+
+	"github.com/recodextech/container"
 
 	"github.com/tryfix/krouter"
 )

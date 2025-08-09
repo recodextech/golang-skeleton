@@ -3,8 +3,9 @@ package avro
 import (
 	"fmt"
 	"golang-skeleton/internal/domain/application"
-	"golang-skeleton/pkg/container"
 	"golang-skeleton/pkg/errors"
+
+	"github.com/recodextech/container"
 
 	"github.com/tryfix/log"
 	"github.com/tryfix/schemaregistry"

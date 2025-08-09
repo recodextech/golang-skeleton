@@ -9,9 +9,10 @@ import (
 	domprod "golang-skeleton/internal/domain/adaptors/producers"
 	"golang-skeleton/internal/domain/application"
 	"golang-skeleton/internal/domain/events"
-	"golang-skeleton/pkg/container"
 	"golang-skeleton/pkg/errors"
 	"time"
+
+	"github.com/recodextech/container"
 
 	"github.com/gmbyapa/kstream/v2/kafka"
 )

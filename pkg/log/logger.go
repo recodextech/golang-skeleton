@@ -2,12 +2,13 @@ package log
 
 import (
 	"context"
-	"github.com/google/uuid"
-	"github.com/tryfix/log"
 	"golang-skeleton/internal/domain/adaptors"
 	"golang-skeleton/internal/domain/application"
 	"golang-skeleton/internal/http/request"
-	"golang-skeleton/pkg/container"
+
+	"github.com/google/uuid"
+	"github.com/recodextech/container"
+	"github.com/tryfix/log"
 )
 
 type Logger struct {

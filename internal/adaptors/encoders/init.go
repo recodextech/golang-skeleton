@@ -5,7 +5,8 @@ import (
 	"golang-skeleton/internal/adaptors/encoders/json"
 	"golang-skeleton/internal/adaptors/encoders/misc"
 	"golang-skeleton/internal/domain/application"
-	"golang-skeleton/pkg/container"
+
+	"github.com/recodextech/container"
 )
 
 type Encoders struct{}

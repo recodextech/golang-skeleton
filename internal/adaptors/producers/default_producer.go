@@ -1,12 +1,13 @@
 package producers
 
 import (
+	"golang-skeleton/internal/domain/application"
+
 	"github.com/gmbyapa/kstream/v2/kafka"
 	"github.com/gmbyapa/kstream/v2/kafka/adaptors/librd"
+	"github.com/recodextech/container"
 	tlog "github.com/tryfix/log"
 	"github.com/tryfix/metrics"
-	"golang-skeleton/internal/domain/application"
-	"golang-skeleton/pkg/container"
 )
 
 type DefaultProducer struct {

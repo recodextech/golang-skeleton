@@ -3,12 +3,13 @@ package http
 import (
 	"context"
 	"fmt"
-	muxhandlers "github.com/gorilla/handlers"
-	"github.com/gorilla/mux"
 	"golang-skeleton/internal/domain/adaptors"
 	"golang-skeleton/internal/domain/application"
-	"golang-skeleton/pkg/container"
 	"net/http"
+
+	muxhandlers "github.com/gorilla/handlers"
+	"github.com/gorilla/mux"
+	"github.com/recodextech/container"
 )
 
 type Server struct {

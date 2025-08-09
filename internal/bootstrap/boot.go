@@ -6,9 +6,10 @@ import (
 	"golang-skeleton/internal/domain/application"
 	"golang-skeleton/internal/http"
 	"golang-skeleton/internal/streaming"
-	"golang-skeleton/pkg/container"
 	"golang-skeleton/pkg/log"
 	"golang-skeleton/pkg/metrics"
+
+	"github.com/recodextech/container"
 )
 
 func Boot() {

@@ -10,10 +10,11 @@ import (
 	"golang-skeleton/internal/streaming/stores"
 	"golang-skeleton/internal/streaming/streams"
 	"golang-skeleton/internal/streaming/tables"
-	"golang-skeleton/pkg/container"
 	"golang-skeleton/pkg/errors"
 	metrics2 "golang-skeleton/pkg/metrics"
 	"time"
+
+	"github.com/recodextech/container"
 
 	"github.com/gmbyapa/kstream/v2/kafka"
 	"github.com/gmbyapa/kstream/v2/kafka/adaptors/librd"

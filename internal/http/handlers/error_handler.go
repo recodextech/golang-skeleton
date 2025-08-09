@@ -7,8 +7,9 @@ import (
 	"golang-skeleton/internal/domain/adaptors"
 	"golang-skeleton/internal/domain/application"
 	"golang-skeleton/internal/http/request"
-	"golang-skeleton/pkg/container"
 	"net/http"
+
+	"github.com/recodextech/container"
 )
 
 // ErrorHandler contains all error handling, formatting and presenting functionality for the http layer.

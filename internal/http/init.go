@@ -4,7 +4,8 @@ import (
 	"golang-skeleton/internal/domain/application"
 	"golang-skeleton/internal/http/handlers"
 	"golang-skeleton/internal/http/responses/writers"
-	"golang-skeleton/pkg/container"
+
+	"github.com/recodextech/container"
 )
 
 type HTTP struct{}

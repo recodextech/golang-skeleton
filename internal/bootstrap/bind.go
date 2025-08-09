@@ -9,9 +9,10 @@ import (
 	"golang-skeleton/internal/services"
 	"golang-skeleton/internal/streaming"
 	"golang-skeleton/internal/usecases"
-	"golang-skeleton/pkg/container"
 	log2 "golang-skeleton/pkg/log"
 	"golang-skeleton/pkg/metrics"
+
+	"github.com/recodextech/container"
 )
 
 func bind(c container.Container) {

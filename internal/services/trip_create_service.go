@@ -7,8 +7,9 @@ import (
 	"golang-skeleton/internal/domain/application"
 	"golang-skeleton/internal/domain/events"
 	"golang-skeleton/internal/http/request"
-	"golang-skeleton/pkg/container"
 	"golang-skeleton/pkg/errors"
+
+	"github.com/recodextech/container"
 )
 
 type TripCreatedService struct {

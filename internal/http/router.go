@@ -8,10 +8,11 @@ import (
 	"golang-skeleton/internal/http/handlers"
 	"golang-skeleton/internal/http/request"
 	"golang-skeleton/internal/http/responses"
-	"golang-skeleton/pkg/container"
 	"golang-skeleton/pkg/uuid"
 	"net/http"
 	"strconv"
+
+	"github.com/recodextech/container"
 
 	"github.com/tryfix/krouter"
 	"github.com/tryfix/log"

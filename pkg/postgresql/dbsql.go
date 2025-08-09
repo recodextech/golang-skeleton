@@ -2,7 +2,8 @@ package db
 
 import (
 	"golang-skeleton/internal/domain/application"
-	"golang-skeleton/pkg/container"
+
+	"github.com/recodextech/container"
 
 	gopostgres "github.com/HADLakmal/go-postgres"
 )

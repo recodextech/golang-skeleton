@@ -2,12 +2,13 @@ package log
 
 import (
 	"context"
-	"github.com/google/uuid"
-	"github.com/tryfix/log"
-	traceableCtx "github.com/tryfix/traceable-context"
 	"golang-skeleton/internal/app"
 	"golang-skeleton/internal/domain/application"
-	"golang-skeleton/pkg/container"
+
+	"github.com/google/uuid"
+	"github.com/recodextech/container"
+	"github.com/tryfix/log"
+	traceableCtx "github.com/tryfix/traceable-context"
 )
 
 type BaseLogger struct {

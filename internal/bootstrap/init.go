@@ -2,7 +2,8 @@ package bootstrap
 
 import (
 	"golang-skeleton/internal/domain/application"
-	"golang-skeleton/pkg/container"
+
+	"github.com/recodextech/container"
 )
 
 func initModules(c container.Container) {

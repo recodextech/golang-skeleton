@@ -3,13 +3,14 @@ package errors
 import (
 	"context"
 	"encoding/json"
-	"github.com/google/uuid"
 	"golang-skeleton/internal/app"
 	"golang-skeleton/internal/domain/adaptors"
 	"golang-skeleton/internal/domain/application"
 	"golang-skeleton/internal/http/request"
-	"golang-skeleton/pkg/container"
 	"net/http"
+
+	"github.com/google/uuid"
+	"github.com/recodextech/container"
 )
 
 // Handler contains all error handling, formatting and presenting functionality for the http layer.

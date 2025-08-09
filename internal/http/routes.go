@@ -5,8 +5,9 @@ import (
 	"golang-skeleton/internal/http/request"
 	"golang-skeleton/internal/http/responses"
 	"golang-skeleton/internal/http/responses/writers"
-	"golang-skeleton/pkg/container"
 	"net/http"
+
+	"github.com/recodextech/container"
 
 	"github.com/tryfix/krouter"
 )

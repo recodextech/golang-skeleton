@@ -6,7 +6,8 @@ import (
 	"golang-skeleton/internal/domain/adaptors"
 	"golang-skeleton/internal/domain/adaptors/encoders"
 	"golang-skeleton/internal/domain/application"
-	"golang-skeleton/pkg/container"
+
+	"github.com/recodextech/container"
 
 	kstream "github.com/gmbyapa/kstream/v2/streams"
 )

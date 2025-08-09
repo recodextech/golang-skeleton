@@ -4,13 +4,14 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/gorilla/mux"
-	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/tryfix/metrics"
 	"golang-skeleton/internal/domain/adaptors"
 	"golang-skeleton/internal/domain/application"
-	"golang-skeleton/pkg/container"
 	"net/http"
+
+	"github.com/gorilla/mux"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/recodextech/container"
+	"github.com/tryfix/metrics"
 )
 
 type Reporter struct {

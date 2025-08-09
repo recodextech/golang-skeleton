@@ -2,9 +2,10 @@ package bootstrap
 
 import (
 	"golang-skeleton/internal/domain/application"
-	"golang-skeleton/pkg/container"
 	"os"
 	"os/signal"
+
+	"github.com/recodextech/container"
 )
 
 func start(con container.AppContainer) {

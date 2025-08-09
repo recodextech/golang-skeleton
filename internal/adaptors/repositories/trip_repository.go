@@ -4,7 +4,8 @@ import (
 	"context"
 	"golang-skeleton/internal/domain/adaptors"
 	"golang-skeleton/internal/domain/application"
-	"golang-skeleton/pkg/container"
+
+	"github.com/recodextech/container"
 
 	store "github.com/gmbyapa/kstream/v2/streams/stores"
 )

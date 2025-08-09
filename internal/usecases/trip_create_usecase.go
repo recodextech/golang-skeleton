@@ -1,7 +1,7 @@
 package usecases
 
 import (
-	"golang-skeleton/pkg/container"
+	"github.com/recodextech/container"
 )
 
 type TripCreateUsecase struct {
